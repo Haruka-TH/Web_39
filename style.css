@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css?family=Zen+Maru+Gothic:500");
+:root{
+    --black:rgba(0,0,0,1);
+    --san-juan:rgba(57,74,100,1);
+    --white:rgba(255,255,255,1);
+
+    --font-size-s:18px;
+    --font-size-m:32px;
+    --font-sixe-l:48px;
+
+    --font-family-zen_maru_gothic:"Zen Maru Gothic";
+}
+
+.zenmarugothic-medium-black-32px{
+    color:var(--black);
+    font-family: var(--font-family-zen_maru_gothic);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.zhu-jie-mian{
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 1080px;
+    width: 1920;
+}
+
+.zhu-jie-mian.overlap{
+    height: 287px;
+    position: relative;
+    width: 722px;
+}
+
+.hidden,hidden *{
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.text-container{
+    align-items: center;
+    display: flex;
+    gap: 1px;
+    height:46px ;
+    margin-right: 12px;
+    margin-top: 17px;
+    max-width: 207px;
+}
+
+.file-text{
+    height: 39px;
+    margin-top: 3px;
+    width: 39px;
+}
+
+.line-1{
+    height: 9px;
+    margin-right: 8px;
+    margin-top: 27px;
+    object-fit: cover;
+    width: 209px;
+}
+
+.flex-row{
+    align-items: flex-start;
+    display: flex;
+    gap: 48px;
+    min-width: 1007px;
+}
+.flex-row-1{
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    height: 46px;
+    margin-right: 12px;
+    min-width: 209px;
+}
+
+.search{
+    height: 34px;
+    margin-top: 2px;
+    width: 34px;
+}
+
+.text-1{
+    color: #f8f4f3;
+    font-family: var(--font-family-zen_maru_gothic);
+    font-size: var(--font-sixe-l);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 53px;
+    width: 635px;
+}
+.text-2{
+    color: #293a54;
+    font-family: var(--font-family-zen_maru_gothic);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    left: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 402px;
+}
+.text-3{
+    left: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 115px;
+    width: 402px;
+}
+.text-4{
+    left: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 192px;
+    width: 144px;
+}
+.text-5{
+    color: var(--san-juan);
+    font-family: var(--font-family-zen_maru_gothic);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 12.8px;
+    line-height: normal;
+    min-height: 46px;
+    min-width: 167px;
+}
+.text-6{
+    color: var(--white);
+    font-family: var(--font-family-zen_maru_gothic);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 12.8px;
+    line-height: normal;
+    min-height: 46px;
+    min-width: 167px;
+}
+.text-7{
+    color: var(--white);
+    font-family: var(--font-family-zen_maru_gothic);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    width: 200px;
+
+}
+
+.view{
+    align-items: flex-start;
+    background-color: var(--san-juan);
+    display: flex;
+    height: 127px;
+    padding: 26px 42px;
+    width: 100%;
+}
+.view-1{
+    align-items: flex-end;
+    background-color: #18212e;
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    padding: 31px 8px;
+    width: 237px;
+}
+.view-2{
+    background-color: #9eb3ce;
+    border-radius: 15px 15px 0px 0px;
+    height: 69px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 725px;
+}
+.view-3{
+    align-items: flex-start;
+    display: flex;
+    height: 287px;
+    left: 285px;
+    min-width: 722px;
+    position: absolute;
+    top:235px;
+}
+.view-4{
+    border: 1px solid;
+    border-color: var(--san-juan);
+    border-radius: 15px;
+    height: 287px;
+    left: 285px;
+    position: absolute;
+    top: 235px;
+    width: 722px;
+}
+
+.overlap-group1{
+    margin-top: 34px;
+}
+.overlap-group{
+    border-radius: 15px;
+}
+
+.inputstyle{
+    background-color: #d9d9d980;
+    border-radius: 5px;
+    height: 46px;
+    left: 167px;
+    position: absolute;
+    top: 198px;
+    width: 330px;
+}
+
+.image{
+    height: 30px;
+    left: 518px;
+    position: absolute;
+    top: 238px;
+    width: 90px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #657FDC;
+    border-radius: 2px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    left: 520px;
+    overflow: hidden;
+    position: absolute;
+    top:150px;
+    width: 170px;
+}
+
+.button2:hover {
+    background-color: #657FDC;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    left: 520px;
+    overflow: hidden;
+    position: absolute;
+    top:210px;
+    width: 170px;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
